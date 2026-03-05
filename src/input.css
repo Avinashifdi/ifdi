@@ -123,13 +123,6 @@ nav a.active-link,
   color: #1E3932;
 }
 
-/* Hero text contrast – outline-style shadow */
-.hero-text {
-  text-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.85),
-    0 0 1px rgba(0, 0, 0, 0.95);
-}
-
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .modal-content {
@@ -153,13 +146,6 @@ nav a.active-link,
   }
 }
 
-
-/* Outline-style hero text shadow (reused here too) */
-.hero-text {
-  text-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.85),
-    0 0 1px rgba(0, 0, 0, 0.95);
-}
 
 /* Fellowship stat pills */
 .stat-pill {

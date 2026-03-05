@@ -20,26 +20,27 @@
 <body class="bg-[#222625] text-[#EDEEE6]">
     <div class="mx-auto max-w-[100%]">
 
-        <!-- NAV PILL -->
+        <!-- NAV PILL (same structure as fellowship redesign) -->
         <header class="relative z-50">
             <div class="rounded-b-[45px] bg-[#404F30] px-6 py-4 sm:px-10">
-                <div class="flex items-center justify-between gap-6">
+                <div class="flex items-center justify-between">
                     <!-- Left links -->
                     <nav
-                        class="hidden sm:flex items-center gap-10 font-['Instrument_Sans'] text-sm font-semibold text-[#EDEEE6]">
+                        class="hidden sm:flex flex-1 items-center gap-10 font-['Instrument_Sans'] text-sm font-semibold text-[#EDEEE6]">
                         <a class="hover:underline" href="about.html">About Us</a>
                         <a class="hover:underline" href="fellowship.html">About The Fellowship</a>
                     </nav>
 
                     <!-- Center logo -->
                     <a href="index.html" class="flex items-center justify-center">
-                        <img src="assets/ifdi-logo-white.png" alt="IFDI Logo" class="h-12 w-12 sm:h-14 sm:w-14" />
+                        <img src="assets/ifdi-logo-white-new.png" alt="IFDI Logo" class="h-14 w-14 sm:h-20 sm:w-20" />
                     </a>
 
                     <!-- Right links -->
                     <nav
-                        class="hidden sm:flex items-center gap-10 font-['Instrument_Sans'] text-sm font-semibold text-[#EDEEE6]">
+                        class="hidden sm:flex flex-1 items-center justify-end gap-10 font-['Instrument_Sans'] text-sm font-semibold text-[#EDEEE6]">
                         <a class="hover:underline" href="contact.html">Contact Us</a>
+                        <a class="hover:underline" href="#">Meet The Fellows</a>
                     </nav>
 
                     <!-- Mobile menu button -->
@@ -145,7 +146,7 @@
                 <div class="absolute inset-0 bg-gradient-to-r from-[#222625]/80 via-[#222625]/40 to-transparent">
                 </div>
                 <!-- background image -->
-                <img src="assets/taba-kalakar.jpg" alt="Hero image" class="h-full object-cover" />
+                <img src="assets/taba-kalakar-new.jpg" alt="Hero image" class="w-full object-cover" />
 
                 <!-- overlays -->
                 <div class="absolute inset-0 bg-[#222625]/30"></div>
@@ -440,7 +441,7 @@
         <section class="relative mt-14" id="cascade-section">
 
             <!-- DEFAULT VIEW: 3 tiles side-by-side -->
-            <div id="tiles-view" class="grid gap-4 sm:grid-cols-3 max-w-[90%] mx-auto">
+            <div id="tiles-view" class="grid gap-1 sm:grid-cols-3 mx-auto">
                 <!-- Tile: Background -->
                 <button type="button" class="group relative overflow-hidden rounded-[10px] text-left"
                     data-open-cascade="background">
@@ -832,12 +833,9 @@
         <!-- JURY (Cascading Columns) -->
         <section class="relative mt-12">
             <div class="rounded-[28px] overflow-hidden bg-[#C9DBB7] shadow-[0_18px_60px_rgba(0,0,0,0.35)]">
-
-                <!-- (optional) top strip if you want your ticker to sit above -->
-                <div class="h-14 bg-[#C9DBB7]"></div>
-
+                
                 <!-- layout -->
-                <div class="relative min-h-[600px]">
+                <div class="relative">
 
                     <!-- MOBILE: TOP STACK (inactive above active) -->
                     <div id="jury-top" class="flex flex-col bg-[#EDEEE6] border-b border-[#404F30]/20 sm:hidden">
@@ -845,7 +843,7 @@
                     </div>
 
                     <!-- DESKTOP: 3-column layout -->
-                    <div class="hidden sm:grid grid-cols-[auto_1fr_auto]">
+                    <div class="hidden sm:grid grid-cols-[auto_1fr_auto] min-h-[600px]">
 
                         <!-- LEFT CASCADE BARS -->
                         <div id="jury-left"
@@ -931,7 +929,7 @@
 
 
                 <!-- bottom band (matches screenshot vibe) -->
-                <div class="h-16 bg-[#404F30]"></div>
+                <div id="jury-bottom-band" class="h-16 bg-[#404F30]"></div>
             </div>
 
             <!-- Hidden master list of ALL tabs (JS re-parents them to left/right) -->
@@ -991,11 +989,11 @@
 
         <!-- FOOTER -->
         <footer id="contact" class="bg-[#222625] px-6 py-12">
-            <div class="grid grid-cols-2 gap-5 sm:grid-cols-5">
+            <div class="grid grid-cols-2 items-start gap-5 sm:grid-cols-5">
 
-                <img src="assets/ifdi-logo-white.png" class="h-30 w-30 sm:h-50 sm:w-50" />
+                <img src="assets/ifdi-logo-white-new.png" class="w-20 sm:w-30" />
                 <div>
-                    <p class="mt-4 text-xs text-[#EDEEE6] font-medium font-['Instrument_Sans']">
+                    <p class="text-xs text-[#EDEEE6] font-medium font-['Instrument_Sans']">
                         International Foundation<br />
                         for Disability Inclusion<br /><br />
                         14054, Alta Vista Ave<br />
