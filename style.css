@@ -1580,6 +1580,11 @@
       height: 456px;
     }
   }
+  .sm\:min-h-\[70svh\] {
+    @media (width >= 40rem) {
+      min-height: 70svh;
+    }
+  }
   .sm\:min-h-\[420px\] {
     @media (width >= 40rem) {
       min-height: 420px;
